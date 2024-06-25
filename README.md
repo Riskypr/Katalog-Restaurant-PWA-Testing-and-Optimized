@@ -15,7 +15,6 @@ Pastikan Anda telah menginstal software berikut sebelum menjalankan proyek ini:
 
    ```sh
    git clone [https://github.com/username/nama-proyek.git](https://github.com/Riskypr/Katalog-Restaurant-PWA-Testing-and-Optimized.git)
-   cd nama-proyek
    ```
 
 2. Instal dependensi:
