@@ -25,29 +25,38 @@ Pastikan Anda telah menginstal software berikut sebelum menjalankan proyek ini:
 
 ## cara menjalankan proyek
 
-Anda dapat menjalankan perintah berikut:
-
-### `npm run start-dev`
-
 Menjalankan aplikasi dalam mode pengembangan. Nanti akan otomatis kebuka url [http://localhost:8080](http://localhost:9000) di browser Anda.
 
-### `npm run build`
+ ```sh
+ npm run start-dev
+```
 
 Membangun aplikasi untuk produksi ke folder `dist`. Ini mengoptimalkan build untuk performa terbaik.
 
-### `npm run lint`
+```sh
+npm run build
+```
 
-Menjalankan ESLint untuk memeriksa kode Anda dan memastikan bahwa itu memenuhi standar kualitas kode yang ditentukan.
+Menjalankan ESLint untuk memeriksa kode dan memastikan bahwa itu memenuhi standar kualitas kode yang ditentukan.
 
-### `npm run test`
+```sh
+npm run lint
+```
 
-Menjalankan semua tes menggunakan Jest.
+Menjalankan Integration Test menggunakan Jest.
 
-### `npm run cypress:open`
+```sh
+npm run test
+```
 
 Membuka Cypress Test Runner untuk menjalankan tes end-to-end.
 
-### `npm run build-image`
+```sh
+npm run cypress:open
+```
 
 Menjalankan skrip `sharp.js` untuk memproses kompres gambar. Pastikan dijalankan terlebih dahulu
 
+```sh
+npm run build-image
+```
