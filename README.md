@@ -55,7 +55,7 @@ Membuka Cypress Test Runner untuk menjalankan tes end-to-end.
 npm run cypress:open
 ```
 
-Menjalankan skrip `sharp.js` untuk memproses kompres gambar. Pastikan dijalankan terlebih dahulu
+Menjalankan skrip `sharp.js` untuk memproses kompres gambar.
 
 ```sh
 npm run build-image
