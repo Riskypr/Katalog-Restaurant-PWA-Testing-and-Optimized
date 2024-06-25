@@ -37,13 +37,13 @@ Membangun aplikasi untuk produksi ke folder `dist`. Ini mengoptimalkan build unt
 npm run build
 ```
 
-Menjalankan ESLint untuk memeriksa kode dan memastikan bahwa itu memenuhi standar kualitas kode yang ditentukan.
+Menjalankan ESLint untuk memeriksa kode 
 
 ```sh
 npm run lint
 ```
 
-Menjalankan Integration Test menggunakan Jest.
+Menjalankan Integration Test untuk fungsi menyukai dan batal menyukai restoran menggunakan Jest.
 
 ```sh
 npm run test
